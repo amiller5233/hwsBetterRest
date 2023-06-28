@@ -11,6 +11,7 @@
 		D83611712A4A8E5500849EA0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83611702A4A8E5500849EA0 /* ContentView.swift */; };
 		D83611732A4A8E5600849EA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D83611722A4A8E5600849EA0 /* Assets.xcassets */; };
 		D83611762A4A8E5600849EA0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D83611752A4A8E5600849EA0 /* Preview Assets.xcassets */; };
+		D836117F2A4BB6A300849EA0 /* SleepCalculator.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = D836117E2A4BB6A300849EA0 /* SleepCalculator.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		D83611702A4A8E5500849EA0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D83611722A4A8E5600849EA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D83611752A4A8E5600849EA0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D836117E2A4BB6A300849EA0 /* SleepCalculator.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SleepCalculator.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				D836116E2A4A8E5500849EA0 /* BetterRestApp.swift */,
 				D83611702A4A8E5500849EA0 /* ContentView.swift */,
+				D836117E2A4BB6A300849EA0 /* SleepCalculator.mlmodel */,
 				D83611722A4A8E5600849EA0 /* Assets.xcassets */,
 				D83611742A4A8E5600849EA0 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D836117F2A4BB6A300849EA0 /* SleepCalculator.mlmodel in Sources */,
 				D83611712A4A8E5500849EA0 /* ContentView.swift in Sources */,
 				D836116F2A4A8E5500849EA0 /* BetterRestApp.swift in Sources */,
 			);
@@ -267,6 +271,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"BetterRest/Preview Content\"";
+				DEVELOPMENT_TEAM = 784X9THV38;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -295,6 +300,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"BetterRest/Preview Content\"";
+				DEVELOPMENT_TEAM = 784X9THV38;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
