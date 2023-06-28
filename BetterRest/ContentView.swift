@@ -8,7 +8,23 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var sleepAmount = 8.0
+    @State private var wakeUp = Date.now
+    
     var body: some View {
+        
+        NavigationView {
+            Form {
+                Section{
+                    Stepper("\(sleepAmount.formatted()) hours", value: $sleepAmount, in: 0...24, step: 0.25)
+                }
+                
+                Section {
+                    DatePicker("Please enter a date", selection: $wakeUp)
+                }
+            }
+        }
+        
         VStack {
             Image(systemName: "globe")
                 .imageScale(.large)
